@@ -1,0 +1,16 @@
+{
+  "name": "real-estate-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i src/styles.css -o public/styles.css",
+    "watch": "tailwindcss -i src/styles.css -o public/styles.css --watch"
+  },
+  "keywords": [],
+  "author": "Dennis Kim",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}
